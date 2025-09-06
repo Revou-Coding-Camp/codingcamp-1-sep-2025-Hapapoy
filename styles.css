@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #00150b;
+  color: #d3c20b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-container {
+  background-color: #003021;
+  padding: 30px;
+  border-radius: 10px;
+  width: 1000px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.todo-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="date"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background-color: #d3c20b;
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.control-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#filter-btn {
+  background-color: #0b6e3e;
+  color: #ffffff;
+}
+
+#delete-all-btn {
+  background-color: #0b6e3e;
+  color: #ffffff;
+}
+
+.table {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #00000040;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #ffffff4a;
+}
+
+.no-task {
+  text-align: center;
+  color: #ffffff40;
+}
